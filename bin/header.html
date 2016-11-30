@@ -1,0 +1,14 @@
+<header class="headeraccueil">
+	<?php 
+		if (isset($_SESSION['et_code'])){
+			echo "Bienvenue $et_prenom !";
+		}
+		else{
+			echo "veuillez vous connecter";
+		}
+	?>
+	<div>
+		<nav class="navaccueil">
+		</nav>
+	</div>
+</header>	
